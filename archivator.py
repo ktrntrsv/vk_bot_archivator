@@ -15,8 +15,7 @@ def zipdir(path, ziph):
             ziph.write(os.path.join(root, file))
 
 
-# todo remove hardcode!!
-vk_session = vk_api.VkApi(token='f20814c9796041a91341a2ce34c3fc06c9ab63d58b0d4603a06ffa4d211bf87497f3fa2bed928441bd60d')
+vk_session = vk_api.VkApi(token='<выигрываем в информационную безопасность>')
 
 
 def main():
